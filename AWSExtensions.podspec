@@ -10,7 +10,7 @@ DESC
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Awais Shahid' => 'mawshd@gmail.com' }
   s.source           = { :git => 'https://github.com/mawshd/AWSExtensions.git', :tag => "#{s.version}" }
-  
+  s.swift_version    = '4.2'
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'AWSExtensions/Core/**/*.{h,m,swift}'

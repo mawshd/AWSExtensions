@@ -1,8 +1,6 @@
 import Foundation
 import UIKit
 
-public let APPLICATION = UIApplication.shared
-
 public struct K {
     
     struct URLS {

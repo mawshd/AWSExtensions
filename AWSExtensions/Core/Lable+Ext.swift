@@ -44,16 +44,16 @@ public extension UILabel {
         }
     }
     
-    override open func copy(_ sender: Any?) {
+    override func copy(_ sender: Any?) {
         UIPasteboard.general.string = text
         UIMenuController.shared.setMenuVisible(false, animated: true)
     }
     
-    override open func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
+    override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
         return (action == #selector(copy(_:)))
     }
     
-    override open var canBecomeFirstResponder: Bool {
+    override var canBecomeFirstResponder: Bool {
         get {
             return true
         }
