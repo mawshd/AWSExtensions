@@ -26,7 +26,12 @@ Import Library into View Controller Where you want to use utilities
 ```ruby
 import AWSExtensions
 ```
-Enjoy 😊 
+Than start using like 
+```ruby
+Date().toString(formatter: .fullDescriptive)
+```
+
+Keep enjoying
 
 ## License
 
