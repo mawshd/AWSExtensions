@@ -10,10 +10,10 @@ This is Swift Library for Generic extensions.
 First, add the following line to your [Podfile](http://guides.cocoapods.org/using/using-cocoapods.html):
 
 ```ruby
-pod 'AWSCore'
+pod 'AWSExtensions'
 ```
 
-Second, install `AWSCore` into your project:
+Second, install `AWSExtensions` into your project:
 
 ```ruby
 pod install
@@ -24,8 +24,9 @@ pod install
 Import Library into View Controller Where you want to use utilities
 
 ```ruby
-import AWSCore
+import AWSExtensions
 ```
+Enjoy 😊 
 
 ## License
 
